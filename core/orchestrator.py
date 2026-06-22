@@ -74,8 +74,8 @@ class Orchestrator:
                     return False
                 status.stop()
 
-                print(direct_url)
-                return True
+                #print(direct_url)
+                #return True
 
                 # 3. Download
                 downloader = SmartDownloader(self.output_dir)
